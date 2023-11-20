@@ -1,14 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Hiisham Khan's Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiisham Khan's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <div id="main-content">
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#main-content">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="main-content">
       <h1>Hello, my name is Hisham Khan</h1>
+      <p>Welcome to my personal portfolio website.</p>
       <button id="github-button">View my GitHub Profile</button>
-    </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a programmer and a web developer.</p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="project">
+        <h3>Personal Portfolio</h3>
+        <p>This is my personal website.</p>
+      </div>
+      <!-- Add more projects as needed -->
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <!-- Add more skills as needed -->
+      </ul>
+    </section>
+
+    <footer>
+      <p>Copyright © Hisham Khan 2023</p>
+    </footer>
 
     <script src="main.js"></script>
   </body>
